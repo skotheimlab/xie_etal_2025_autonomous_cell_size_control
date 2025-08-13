@@ -4,13 +4,13 @@ Tested on Python 3.9 on MacOS. More detailed instructions are in ./2024_analysis
 
 CONTENTS:
 
-    single cell tracking: Scripts for semi-automated movie assembly and collation of semi-automated single cell tracking in 3D
+-Single cell tracking: Scripts for semi-automated movie assembly and collation of semi-automated single cell tracking in 3D
 
 Expected input data: raw images, segmentation masks of nuclear shapes in 3D, and single cell tracking from MaMuT tracking tables
 
 assemble_movie: semi-automated registration and assembly of movies from longitudinal snapshots semiauto_tracking_segmentation: collate segmentation and sparse single cell tracking
 
-    cell and microenvironment quantifications: Scripts for quantifying and collating cell and cell-neighborhood geometries using densely annotated 3D cell and nuclear segmentations
+-Cell and microenvironment quantifications: Scripts for quantifying and collating cell and cell-neighborhood geometries using densely annotated 3D cell and nuclear segmentations
 
 Expected input data: raw images, segmentation masks of cell and nuclear shapes in 3D
 
