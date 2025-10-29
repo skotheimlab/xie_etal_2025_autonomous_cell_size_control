@@ -70,5 +70,7 @@ for t in tqdm(range(T)):
     # for z in range(flat.shape[0]):
     #     flat[z,...] = affine_transform(flat[z,...],rot,transl)
     
+    
+    
     io.imsave( path.join(output_dir,f't{t}.tif'), flat.astype(np.uint16),check_contrast=False)
     
